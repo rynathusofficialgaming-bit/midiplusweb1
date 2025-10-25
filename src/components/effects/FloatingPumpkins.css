@@ -1,0 +1,95 @@
+.pumpkins-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 50;
+  overflow: hidden;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(110vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.pumpkin-container {
+  position: absolute;
+  bottom: -10%;
+  animation-name: float;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.pumpkin {
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
+}
+
+.pumpkin-container:nth-child(10n) {
+  left: 5%;
+  animation-duration: 15s;
+  animation-delay: -12s;
+  font-size: 2.5rem;
+}
+.pumpkin-container:nth-child(10n+1) {
+  left: 15%;
+  animation-duration: 12s;
+  animation-delay: -5s;
+  font-size: 1.5rem;
+}
+.pumpkin-container:nth-child(10n+2) {
+  left: 25%;
+  animation-duration: 18s;
+  animation-delay: -2s;
+  font-size: 3rem;
+}
+.pumpkin-container:nth-child(10n+3) {
+  left: 35%;
+  animation-duration: 10s;
+  animation-delay: -8s;
+  font-size: 1.8rem;
+}
+.pumpkin-container:nth-child(10n+4) {
+  left: 45%;
+  animation-duration: 20s;
+  animation-delay: -1s;
+  font-size: 2.2rem;
+}
+.pumpkin-container:nth-child(10n+5) {
+  left: 55%;
+  animation-duration: 14s;
+  animation-delay: -14s;
+  font-size: 2.7rem;
+}
+.pumpkin-container:nth-child(10n+6) {
+  left: 65%;
+  animation-duration: 16s;
+  animation-delay: -6s;
+  font-size: 1.9rem;
+}
+.pumpkin-container:nth-child(10n+7) {
+  left: 75%;
+  animation-duration: 11s;
+  animation-delay: -10s;
+  font-size: 2.4rem;
+}
+.pumpkin-container:nth-child(10n+8) {
+  left: 85%;
+  animation-duration: 19s;
+  animation-delay: -4s;
+  font-size: 2.1rem;
+}
+.pumpkin-container:nth-child(10n+9) {
+  left: 95%;
+  animation-duration: 13s;
+  animation-delay: 0s;
+  font-size: 2.8rem;
+}
