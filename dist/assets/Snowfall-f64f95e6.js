@@ -1,0 +1,1 @@
+import{j as s}from"./index-efda03ba.js";const e=()=>{const a=Array.from({length:150}).map((o,n)=>s.jsx("div",{className:"snowflake"},n));return s.jsx("div",{className:"snowfall-container",children:a})};export{e as default};

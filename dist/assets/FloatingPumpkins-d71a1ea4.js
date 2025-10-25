@@ -1,0 +1,1 @@
+import{j as s}from"./index-efda03ba.js";const r=()=>{const n=Array.from({length:20}).map((p,i)=>s.jsx("div",{className:"pumpkin-container",children:s.jsx("div",{className:"pumpkin",children:"🎃"})},i));return s.jsx("div",{className:"pumpkins-wrapper",children:n})};export{r as default};

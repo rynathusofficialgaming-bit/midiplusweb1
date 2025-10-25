@@ -58,8 +58,8 @@ export const appConfig = {
       max: 120000
     },
     fakeError: {
-      enabled: true,
-      chance: 0.5,
+      enabled: false,
+      chance: 0.1,
       message: "Our AI got a bit too creative and hit a block. Please try again!"
     }
   },
