@@ -48,7 +48,7 @@ export const appConfig = {
   },
 
   maintenanceMode: {
-    enabled: true,
+    enabled: false,
     message: "We're currently fine-tuning our AI engine to bring you even better melodies. We'll be back online shortly!"
   },
   
@@ -67,12 +67,12 @@ export const appConfig = {
   users: [
     { username: "producer1", password: "beats2024" },
     { username: "admin", password: "admin123" },
-    { username: "demo", password: "demo" }
+    { username: "demo", password: "demo1" }
   ],
   
   genres: {
     trap: { 
-      enabled: true, 
+      enabled: false, 
       name: "Trap", 
       dropboxLinks: [
         "https://www.dropbox.com/s/example1/trap-midi-1.mid?dl=1",
@@ -81,7 +81,7 @@ export const appConfig = {
       ] 
     },
     lofi: { 
-      enabled: true, 
+      enabled: false, 
       name: "Lo-Fi", 
       dropboxLinks: [
         "https://www.dropbox.com/s/example4/lofi-midi-1.mid?dl=1"
@@ -95,21 +95,21 @@ export const appConfig = {
       ] 
     },
     drill: { 
-      enabled: true, 
+      enabled: false, 
       name: "Drill", 
       dropboxLinks: [
         "https://www.dropbox.com/s/example9/drill-midi-1.mid?dl=1"
       ] 
     },
     rnb: { 
-      enabled: true, 
+      enabled: false, 
       name: "R&B", 
       dropboxLinks: [
         "https://www.dropbox.com/s/example11/rnb-midi-1.mid?dl=1"
       ] 
     },
     edm: { 
-      enabled: true, 
+      enabled: false, 
       name: "EDM", 
       dropboxLinks: [
         "https://www.dropbox.com/s/example13/edm-midi-1.mid?dl=1"
