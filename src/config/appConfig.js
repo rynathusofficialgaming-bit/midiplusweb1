@@ -48,7 +48,7 @@ export const appConfig = {
   },
 
   maintenanceMode: {
-    enabled: false,
+    enabled: true,
     message: "We're currently fine-tuning our AI engine to bring you even better melodies. We'll be back online shortly!"
   },
   
