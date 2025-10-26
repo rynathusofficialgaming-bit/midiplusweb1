@@ -48,7 +48,7 @@ export const appConfig = {
   },
 
   maintenanceMode: {
-    enabled: true,
+    enabled: false,
     message: "We're currently fine-tuning our AI engine to bring you even better melodies. We'll be back online shortly!"
   },
   
@@ -58,8 +58,8 @@ export const appConfig = {
       max: 120000
     },
     fakeError: {
-      enabled: false,
-      chance: 0.1,
+      enabled: true,
+      chance: 0.3,
       message: "Our AI got a bit too creative and hit a block. Please try again!"
     }
   },
